@@ -50,15 +50,15 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: null,
-    extractCSS: true,
+    // extractCSS: true,
     // extend(config, { isDev }) {
     //   if (!isDev) {
     //     config.output.publicPath = './static/'
     //   }
     // },
   },
-  router: {
-    base: "/"
-  },
+  // router: {
+  //   base: "/"
+  // },
 
 }
