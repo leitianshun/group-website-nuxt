@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
   head: {
     title: '挑夫团购',
     htmlAttrs: {
@@ -48,9 +49,16 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    postcss: null
+    postcss: null,
+    extractCSS: true,
+    extend(config, { isDev }) {
+      if (!isDev) {
+        config.output.publicPath = './static/'
+      }
+    },
   },
   router: {
     base: "/"
-  }
+  },
+
 }
