@@ -50,4 +50,7 @@ export default {
   build: {
     postcss: null
   },
+  router: {
+    base: "/"
+  }
 }
