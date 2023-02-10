@@ -12,19 +12,25 @@
             <li>
               <h3>联系我们</h3>
             </li>
-            <li>
-              <i class="bi bi-window"></i>
-              电商视频
+            <li @click="$router.push('/')">
+              <i class="bi bi-house-door"></i>
+              回到首页
               <i class="bi bi-chevron-right"></i>
             </li>
-            <li>
-              <i class="bi bi-window"></i>
-              培训课件
+            <li @click="$router.push('/product-center')">
+              <i class="bi bi-bag"></i>
+              产品中心
               <i class="bi bi-chevron-right"></i>
             </li>
-            <li>
+            <li @click="$router.push('/core-service')">
+              <i class="bi bi-award"></i>
+
+              核心业务
+              <i class="bi bi-chevron-right"></i>
+            </li>
+            <li @click="$router.push('/about-us')">
               <i class="bi bi-window"></i>
-              物流配套
+              关于我们
               <i class="bi bi-chevron-right"></i>
             </li>
 
@@ -64,7 +70,7 @@
             <div class="row">
               <div class="col-xl-6 col-lg-6" style="margin: 20px 0">
                 <div class="comment-form__input-box">
-                  <input v-model="name" type="text" placeholder="名字" name="name" />
+                  <input v-model="name" type="text" placeholder="姓名" name="name" />
                 </div>
               </div>
               <div class="col-xl-6 col-lg-6" style="margin: 20px 0">
@@ -119,7 +125,28 @@
     },
     methods: {
       submit() {
-        console.log("submit");
+        /* eslint-disable */
+        if (!/^[\u4e00-\u9fa5]{2,4}$/.test(this.name)) {
+          this.$toast.error("请输入正确的用户名,只包含汉字，最长4位");
+          return;
+        }
+        if (
+          !/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+            this.email
+          )
+        ) {
+          this.$toast.error("请输入正确的邮箱,例：shf@163.com");
+          return;
+        }
+        if (!/^1[3,4,5,6,7,8,9]\d{9}$/.test(this.phone)) {
+          this.$toast.error("请输入正确的手机号,11位数字");
+          return;
+        }
+        if (this.message == "") {
+          this.$toast.error("请输入留言");
+          return;
+        }
+        this.$toast.success("已收到您的留言");
       },
     },
   };

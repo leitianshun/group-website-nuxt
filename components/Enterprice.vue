@@ -1,42 +1,77 @@
 <template>
   <div class="box container">
     <div class="top-title">
+      <h2>粽子礼盒</h2>
+      <p>查看更多...</p>
+    </div>
+    <!-- <div class="produce-box"> -->
+    <ul class="ul-box row justify-content-around">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/粽子1.jpg" alt="" />
+        <div class="tip">月伴中秋-月之醇</div>
+      </li>
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/粽子2.jpg" alt="" />
+        <div class="tip">拨云见月-月之灵</div>
+      </li>
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/粽子3.jpg" alt="" />
+        <div class="tip">攀云逐月-月之光</div>
+      </li>
+      <div class="w-100"></div>
+
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/粽子4.jpg" alt="" />
+        <div class="tip">福粽</div>
+      </li>
+
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/粽子5.jpg" alt="" />
+        <div class="tip">福粽</div>
+      </li>
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/粽子6.jpg" alt="" />
+        <div class="tip">福粽</div>
+      </li>
+    </ul>
+
+    <div class="top-title">
       <h2>随心组合</h2>
       <p>查看更多...</p>
     </div>
     <!-- <div class="produce-box"> -->
     <ul class="ul-box row justify-content-around">
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包1.jpg" alt="" />
         <div class="tip">御牛献礼礼盒1</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包2.jpg" alt="" />
         <div class="tip">五洲六道菜礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包3.jpg" alt="" />
         <div class="tip">瓜子花生炒货礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包4.jpg" alt="" />
         <div class="tip">牛腱王礼盒</div>
       </li>
       <div class="w-100"></div>
 
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包5.jpg" alt="" />
         <div class="tip">礼遇五洲礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包6.jpg" alt="" />
         <div class="tip">鸿运五洲礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包7.jpg" alt="" />
         <div class="tip">润包礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包8.jpg" alt="" />
         <div class="tip">五洲牛肉礼盒</div>
       </li>

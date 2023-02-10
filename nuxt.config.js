@@ -39,7 +39,22 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/toast',
   ],
+  toast: {
+    position: 'top-center',
+    duration: 3000,
+    fitToScreen: true,
+    register: [ // Register custom toasts
+      {
+        name: 'my-error',
+        message: 'Oops...Something went wrong',
+        options: {
+          type: 'error',
+        }
+      }
+    ]
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -51,18 +66,20 @@ export default {
   build: {
     postcss: null,
     // extractCSS: true,
+
+    // base: process.env.NODE_ENV === 'production' ? '/group-website-nuxt' : '/',
     // extend(config, { isDev }) {
     //   if (!isDev) {
     //     config.output.publicPath = './static/'
     //   }
     // },
   },
-  generate: {
-    dir: 'docs',
-    subFolders: false
-  },
+  // generate: {
+  //   dir: 'docs',
+  //   subFolders: false
+  // },
   router: {
-    base: "/group-website-nuxt"
+    // base: process.env.NODE_ENV === 'development' ? '/' : "/group-website-nuxt"
   },
 
 }

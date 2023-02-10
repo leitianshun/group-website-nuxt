@@ -6,38 +6,55 @@
     </div>
     <!-- <div class="produce-box"> -->
     <ul class="ul-box row justify-content-around">
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/年货礼包1.jpg" alt="" />
         <div class="tip">年货节礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/年货礼包2.png" alt="" />
         <div class="tip">挑夫优选礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/年货礼包3.png" alt="" />
         <div class="tip">挑夫甄选礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/年货礼包4.png" alt="" />
         <div class="tip">挑夫精选礼盒</div>
       </li>
       <div class="w-100"></div>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/年货礼包5.png" alt="" />
         <div class="tip">儿时记忆零食礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/年货礼包6.png" alt="" />
         <div class="tip">挑夫干货礼盒</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/蒙城1.jpg" alt="" />
         <div class="tip">蒙城好物礼盒套餐一</div>
       </li>
-      <li class="col-12 col-xl-2">
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/蒙城2.jpg" alt="" />
         <div class="tip">蒙城好物礼盒套餐一</div>
+      </li>
+      <div class="w-100"></div>
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/蒙城好物组合礼盒一.jpg" alt="" />
+        <div class="tip">蒙城好物组合礼盒一</div>
+      </li>
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/蒙城好物组合礼盒二.jpg" alt="" />
+        <div class="tip">蒙城好物组合礼盒二</div>
+      </li>
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/蒙城好物组合礼盒三.jpg" alt="" />
+        <div class="tip">蒙城好物组合礼盒三</div>
+      </li>
+      <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/蒙城好物组合礼盒四.jpg" alt="" />
+        <div class="tip">蒙城好物组合礼盒四</div>
       </li>
     </ul>
     <hr />

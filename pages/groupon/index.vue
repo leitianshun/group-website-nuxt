@@ -13,19 +13,29 @@
             <li>
               <h3>团购有礼</h3>
             </li>
-            <li>
-              <i class="bi bi-window"></i>
-              大雄山泉
+            <li @click="$router.push('/')">
+              <i class="bi bi-house-door"></i>
+              回到首页
               <i class="bi bi-chevron-right"></i>
             </li>
-            <li>
-              <i class="bi bi-window"></i>
-              年货礼包
+            <li @click="$router.push('/product-center')">
+              <i class="bi bi-bag"></i>
+              产品中心
               <i class="bi bi-chevron-right"></i>
             </li>
-            <li>
+            <li @click="$router.push('/core-service')">
+              <i class="bi bi-award"></i>
+              核心业务
+              <i class="bi bi-chevron-right"></i>
+            </li>
+            <li @click="$router.push('/contact-us')">
+              <i class="bi bi-telephone"></i>
+              联系我们
+              <i class="bi bi-chevron-right"></i>
+            </li>
+            <li @click="$router.push('/about-us')">
               <i class="bi bi-window"></i>
-              横山牛肉
+              关于我们
               <i class="bi bi-chevron-right"></i>
             </li>
             <li></li>

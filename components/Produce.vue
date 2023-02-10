@@ -8,7 +8,64 @@
     <ul class="ul-box row justify-content-around">
       <!-- offset-xl-1  设置偏移 -->
       <li class="col-12 col-xl-3" @click="$router.push({ path: '/goodsinfo', query: { id: 123 } })">
-        <img src="/images/sxdami.png" alt="" />
+        <img src="../static/images/怀宁贡糕.jpg" alt="" />
+        <img src="/images/hide.png" class="hide" alt="" />
+        <div class="goods-box">
+          <div class="goods-info">
+            <span>
+              <i class="bi bi-cart3"></i>
+              怀宁贡糕
+            </span>
+            <button>查看详情</button>
+          </div>
+
+          <div class="price">
+            价格：
+            <span style="color: red">¥78</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/美林美蓝莓冰酒.png" alt="" />
+        <img src="/images/hide.png" class="hide" alt="" />
+        <div class="goods-box">
+          <div class="goods-info">
+            <span>
+              <i class="bi bi-cart3"></i>
+              美林美蓝莓冰酒
+            </span>
+            <button>查看详情</button>
+          </div>
+
+          <div class="price">
+            价格：
+            <span style="color: red">¥398</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/木耳.jpg" alt="" />
+        <img src="/images/hide.png" class="hide" alt="" />
+        <div class="goods-box">
+          <div class="goods-info">
+            <span>
+              <i class="bi bi-cart3"></i>
+              新合桑枝黑木耳
+            </span>
+            <button>查看详情</button>
+          </div>
+
+          <div class="price">
+            价格：
+            <span style="color: red">¥75</span>
+          </div>
+        </div>
+      </li>
+      <div class="w-100"></div>
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
+        <img src="../static/images/sxdami.png" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
           <div class="goods-info">
@@ -18,15 +75,15 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
         </div>
       </li>
 
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/山茶油主图6.png" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -37,15 +94,15 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
         </div>
       </li>
 
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/五华鸡养殖环境9.png" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -56,8 +113,8 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
@@ -65,7 +122,7 @@
       </li>
       <div class="w-100"></div>
 
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/黑芝麻蜂蜜丸主图6.png" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -76,15 +133,15 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
         </div>
       </li>
 
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/sxyou.png" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -95,14 +152,14 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
         </div>
       </li>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/主图_1.jpg" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -113,8 +170,8 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
@@ -122,7 +179,7 @@
       </li>
       <!-- 此div是用来换行用的 -->
       <div class="w-100"></div>
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/大别山黄牛肉主图6.jpg" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -133,15 +190,15 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
         </div>
       </li>
 
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/主图_2.png" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -152,15 +209,15 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
         </div>
       </li>
 
-      <li class="col-12 col-xl-3">
+      <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/2.jpg" alt="" />
         <img src="/images/hide.png" class="hide" alt="" />
         <div class="goods-box">
@@ -171,8 +228,8 @@
             </span>
             <button>查看详情</button>
           </div>
-          <div class="price">市场价：¥19.9</div>
-          <div>
+
+          <div class="price">
             价格：
             <span style="color: red">¥9.9</span>
           </div>
@@ -224,7 +281,7 @@
         // height: 300px;
         overflow: hidden;
         cursor: pointer;
-        box-shadow: 0 0 2px rgba(41, 40, 40, 0.9);
+        // box-shadow: 0 0 2px rgba(41, 40, 40, 0.9);
         position: relative;
         margin-bottom: 30px;
         padding: 0;

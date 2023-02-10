@@ -3,13 +3,13 @@
     <div class="rows">
       <swiper class="swiper" :options="swiperOption" style="">
         <swiper-slide class="slide">
-          <div class="imgs">
+          <div class="imgs" @click="$router.push('/goodsinfo')">
             <!-- <img :src="`${cdnUrl}/images/dxsqSwiper.jpg`" class="img" alt="" /> -->
             <img src="../static/images/dxsqSwiper2.jpg" class="img" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide class="slide">
-          <div class="imgs">
+          <div class="imgs" @click="$router.push('/goodsinfo')">
             <img src="../static/images/sxmiantiao.png" class="img" alt="" />
           </div>
         </swiper-slide>
@@ -24,7 +24,7 @@
           </div>
         </swiper-slide> -->
         <swiper-slide class="slide">
-          <div class="imgs">
+          <div class="imgs" @click="$router.push('/goodsinfo')">
             <img src="../static/images/sxdami.png" class="img" alt="" />
           </div>
         </swiper-slide>

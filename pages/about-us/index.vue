@@ -15,19 +15,25 @@
             <li class="col-12">
               <h3>关于我们</h3>
             </li>
-            <li class="col-12">
-              <i class="bi bi-window"></i>
-              首页推荐
+            <li @click="$router.push('/')">
+              <i class="bi bi-house-door"></i>
+              回到首页
               <i class="bi bi-chevron-right"></i>
             </li>
-            <li class="col-12">
-              <i class="bi bi-window"></i>
-              本地资讯
+            <li @click="$router.push('/product-center')">
+              <i class="bi bi-bag"></i>
+              产品中心
               <i class="bi bi-chevron-right"></i>
             </li>
-            <li class="col-12">
-              <i class="bi bi-window"></i>
-              热点关注
+            <li @click="$router.push('/core-service')">
+              <i class="bi bi-award"></i>
+
+              核心业务
+              <i class="bi bi-chevron-right"></i>
+            </li>
+            <li @click="$router.push('/contact-us')">
+              <i class="bi bi-telephone"></i>
+              联系我们
               <i class="bi bi-chevron-right"></i>
             </li>
 

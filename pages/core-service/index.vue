@@ -15,27 +15,32 @@
             </li>
 
             <li>
-              <i class="bi bi-window"></i>
+              <i class="bi bi-bag"></i>
+
               横山牛肉
               <i class="bi bi-chevron-right"></i>
             </li>
             <li>
-              <i class="bi bi-window"></i>
+              <i class="bi bi-bag"></i>
+
               太湖锅巴
               <i class="bi bi-chevron-right"></i>
             </li>
             <li>
-              <i class="bi bi-window"></i>
+              <i class="bi bi-bag"></i>
+
               大雄山泉
               <i class="bi bi-chevron-right"></i>
             </li>
             <li>
-              <i class="bi bi-window"></i>
+              <i class="bi bi-bag"></i>
+
               怀宁贡糕
               <i class="bi bi-chevron-right"></i>
             </li>
             <li>
-              <i class="bi bi-window"></i>
+              <i class="bi bi-bag"></i>
+
               寿县大米
               <i class="bi bi-chevron-right"></i>
             </li>
@@ -119,117 +124,117 @@
           </div>
           <ul class="goods-box col-sm-12">
             <div class="scroll-box">
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/年货礼包1.jpg" alt="" />
                 <div class="tip">年货节礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/年货礼包2.png" alt="" />
                 <div class="tip">挑夫优选礼盒</div>
               </li>
               <!-- <div class="w-100"></div> -->
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/年货礼包3.png" alt="" />
                 <div class="tip">挑夫甄选礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/年货礼包4.png" alt="" />
                 <div class="tip">挑夫精选礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/年货礼包5.png" alt="" />
                 <div class="tip">儿时记忆零食礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/年货礼包6.png" alt="" />
                 <div class="tip">挑夫干货礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/蒙城1.jpg" alt="" />
                 <div class="tip">蒙城好物礼盒套餐一</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/蒙城2.jpg" alt="" />
                 <div class="tip">蒙城好物礼盒套餐一</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/蒙城3.jpg" alt="" />
                 <div class="tip">蒙城好物礼盒套餐一</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/蒙城4.jpg" alt="" />
                 <div class="tip">蒙城好物礼盒套餐一</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包1.jpg" alt="" />
                 <div class="tip">御牛献礼礼盒1</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包2.jpg" alt="" />
                 <div class="tip">五洲六道菜礼盒</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包3.jpg" alt="" />
                 <div class="tip">瓜子花生炒货礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包4.jpg" alt="" />
                 <div class="tip">牛腱王礼盒</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包5.jpg" alt="" />
                 <div class="tip">礼遇五洲礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包6.jpg" alt="" />
                 <div class="tip">鸿运五洲礼盒</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包7.jpg" alt="" />
                 <div class="tip">润包礼盒</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/组合礼包8.jpg" alt="" />
                 <div class="tip">五洲牛肉礼盒</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/sxdami.png" alt="" />
                 <div class="tip">寿县大米</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/山茶油主图6.png" alt="" />
                 <div class="tip">山茶油</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/五华鸡养殖环境9.png" alt="" />
                 <div class="tip">五华鸡</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/黑芝麻蜂蜜丸主图6.png" alt="" />
                 <div class="tip">黑芝麻蜂蜜丸</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/sxyou.png" alt="" />
                 <div class="tip">寿县香油</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/大别山黄牛肉主图6.jpg" alt="" />
                 <div class="tip">大别山黄牛肉</div>
               </li>
 
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/主图_2.png" alt="" />
                 <div class="tip">白桃水果茶</div>
               </li>
-              <li class="goods-item">
+              <li class="goods-item" @click="$router.push('/goodsinfo')">
                 <img src="../../static/images/2.jpg" alt="" />
                 <div class="tip">葡萄水果茶</div>
               </li>
