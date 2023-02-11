@@ -5,7 +5,10 @@
       <p>查看更多...</p>
     </div>
     <!-- <div class="produce-box"> -->
-    <ul class="ul-box row justify-content-around">
+    <ul
+      class="ul-box row justify-content-around wow animate__rotateInUpLeft"
+      data-wow-delay="100ms"
+      data-wow-duration="1500ms">
       <li class="col-12 col-xl-3" @click="$router.push('/goodsinfo')">
         <img src="../static/images/粽子1.jpg" alt="" />
         <div class="tip">月伴中秋-月之醇</div>
@@ -40,7 +43,10 @@
       <p>查看更多...</p>
     </div>
     <!-- <div class="produce-box"> -->
-    <ul class="ul-box row justify-content-around">
+    <ul
+      class="ul-box row justify-content-around wow animate__rotateInUpRight"
+      data-wow-delay="100ms"
+      data-wow-duration="1500ms">
       <li class="col-12 col-xl-2" @click="$router.push('/goodsinfo')">
         <img src="../static/images/组合礼包1.jpg" alt="" />
         <div class="tip">御牛献礼礼盒1</div>
@@ -77,7 +83,11 @@
       </li>
     </ul>
     <hr />
-    <div class="aboutBg" style="">
+    <div
+      class="aboutBg wow animate__bounceInLeft wow animate__slideInUp"
+      data-wow-delay="100ms"
+      data-wow-duration="2000ms"
+      style="">
       <div class="about-box">
         <h3>关于我们</h3>
         <p>
@@ -88,7 +98,13 @@
     </div>
     <hr />
     <!-- <img src="../static/images/youshi.jpg" class="row col-sm-12 col-xl-12" style="margin: 10px 0" alt="" /> -->
-    <img src="../static/images/hzhb.png" class="row col-sm-12 col-xl-12" style="margin: 10px 0" alt="" />
+    <img
+      src="../static/images/hzhb.png"
+      class="row col-sm-12 col-xl-12 wow animate__zoomInUp"
+      data-wow-delay="100ms"
+      data-wow-duration="2000ms"
+      style="margin: 10px 0"
+      alt="" />
     <!-- <img src="../static/images/aboutbg.jpg" alt="" /> -->
   </div>
   <!-- </div> -->

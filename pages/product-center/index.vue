@@ -8,7 +8,10 @@
         alt="" />
 
       <div class="main-box row col-12 col-xl-12 justify-content-between">
-        <div class="left-box col-12 col-xl-4">
+        <div
+          class="left-box col-12 col-xl-4 wow animate__fadeInLeftBig"
+          data-wow-delay="100ms"
+          data-wow-duration="1600ms">
           <ul class="col-12">
             <li class="">
               <h3>产品中心</h3>
@@ -77,7 +80,10 @@
           </div>
         </div>
 
-        <div class="right-box col-xl-7 col-12">
+        <div
+          class="right-box col-xl-7 col-12 wow animate__bounceInRight"
+          data-wow-delay="100ms"
+          data-wow-duration="2000ms">
           <div class="top-box col-12">
             <h5>产品中心</h5>
             <p @click="goHome()">
@@ -234,6 +240,16 @@
   export default {
     data() {
       return {};
+    },
+    mounted() {
+      /* eslint-disable */
+      new WOW({
+        boxClass: "wow",
+        live: true,
+        offset: 150,
+        animateClass: "animated",
+        mobile: true,
+      }).init();
     },
     methods: {
       goHome() {

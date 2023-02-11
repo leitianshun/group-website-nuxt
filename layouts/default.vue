@@ -29,7 +29,29 @@
     data() {
       return {
         top: "",
+        wow: "",
       };
+    },
+    watch: {
+      // $route: {
+      //   immediate: true,
+      //   deep: true,
+      //   handler(to, form) {
+      //     // setTimeout(() => {
+      //     this.$nextTick(() => {
+      //       /* eslint-disable */
+      //       const wow = new WOW({
+      //         boxClass: "wow",
+      //         live: true,
+      //         offset: -50,
+      //         animateClass: "animated",
+      //         mobile: true,
+      //       });
+      //       wow.init();
+      //     });
+      //     // }, 1000);
+      //   },
+      // },
     },
     created() {
       // console.log(this.$route);

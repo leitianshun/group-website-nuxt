@@ -75,6 +75,14 @@
     //   },
     // },
     mounted() {
+      /* eslint-disable */
+      new WOW({
+        boxClass: "wow",
+        live: true,
+        offset: 150,
+        animateClass: "animated",
+        mobile: true,
+      }).init();
       window.addEventListener("scroll", this.getScrollTop);
       // document.addEventListener("scroll", this.getScrollTop);
     },

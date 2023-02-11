@@ -1,5 +1,5 @@
 <template>
-  <div class="box container">
+  <div class="box container wow animate__lightSpeedInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
     <div class="top-title col-xl-12">
       <h2>年货节礼盒</h2>
       <p>查看更多...</p>

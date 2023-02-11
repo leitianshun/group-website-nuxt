@@ -12,17 +12,19 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" },
+    ],
+    // script: [{ src: 'https://cdn.bootcdn.net/ajax/libs/wow/1.1.2/wow.js' }]
   },
   server: {
     port: 4000, // default: 3000
 
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['./global-styles/styles.css'],
+  css: ['./global-styles/styles.css', 'animate.css/animate.css'],
   // lintOnSave: false,
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: './plugins/router.js', ssr: true }],
+  plugins: [{ src: './plugins/router.js', ssr: true }, { src: './plugins/wow.js', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

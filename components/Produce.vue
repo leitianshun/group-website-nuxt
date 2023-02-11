@@ -1,5 +1,5 @@
 <template>
-  <div class="box container">
+  <div class="box container wow animate__backInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
     <div class="top-title row col-xl-12">
       <h2>品牌产品</h2>
       <p>查看更多...</p>
@@ -237,7 +237,13 @@
       </li>
     </ul>
     <hr />
-    <img src="../static/images/img.jpg" style="width: 100%" alt="" />
+    <img
+      src="../static/images/img.jpg"
+      class="wow animate__bounceInRight"
+      data-wow-delay="100ms"
+      data-wow-duration="2500ms"
+      style="width: 100%"
+      alt="" />
     <!-- <div class="bgimg"></div> -->
     <hr />
   </div>
@@ -249,6 +255,7 @@
     data() {
       return {};
     },
+
     methods: {},
   };
 </script>

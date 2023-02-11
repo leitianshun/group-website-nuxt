@@ -10,7 +10,7 @@
         alt="" />
 
       <div class="main-box row justify-content-between">
-        <div class="left-box col-12 col-xl-3">
+        <div class="left-box col-12 col-xl-3 wow animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="2000ms">
           <ul class="row">
             <li class="col-12">
               <h3>关于我们</h3>
@@ -47,7 +47,10 @@
           </div>
         </div>
 
-        <div class="right-box col-12 col-xl-8">
+        <div
+          class="right-box col-12 col-xl-8 wow animate__fadeInRight"
+          data-wow-delay="100ms"
+          data-wow-duration="2000ms">
           <div class="top-box col-12">
             <h5>关于我们</h5>
             <p @click="goHome()">
@@ -75,6 +78,16 @@
   export default {
     data() {
       return {};
+    },
+    mounted() {
+      /* eslint-disable */
+      new WOW({
+        boxClass: "wow",
+        live: true,
+        offset: 100,
+        animateClass: "animated",
+        mobile: true,
+      }).init();
     },
     methods: {
       goHome() {

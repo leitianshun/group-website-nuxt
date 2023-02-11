@@ -7,7 +7,7 @@
         src="../../static/images/kgdj1.jpg"
         alt="" />
       <div class="main-box row justify-content-between">
-        <div class="left-box col-xl-3 col-12">
+        <div class="left-box col-xl-3 col-12 wow animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="2000ms">
           <ul>
             <li>
               <h3>联系我们</h3>
@@ -44,7 +44,10 @@
           </div>
         </div>
 
-        <div class="right-box col-xl-8 col-12">
+        <div
+          class="right-box col-xl-8 col-12 wow animate__fadeInRight"
+          data-wow-delay="100ms"
+          data-wow-duration="2000ms">
           <div class="top-box">
             <h5>联系我们</h5>
             <p>
@@ -122,6 +125,16 @@
         phone: "",
         message: "",
       };
+    },
+    mounted() {
+      /* eslint-disable */
+      new WOW({
+        boxClass: "wow",
+        live: true,
+        offset: 150,
+        animateClass: "animated",
+        mobile: true,
+      }).init();
     },
     methods: {
       submit() {

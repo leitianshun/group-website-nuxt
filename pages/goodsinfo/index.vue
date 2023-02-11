@@ -7,7 +7,7 @@
         src="../../static/images/kgdj1.jpg"
         alt="" />
       <div class="main-box row justify-content-between">
-        <div class="left-box col-xl-3 col-12">
+        <div class="left-box col-xl-3 col-12 wow animate__fadeInLeft" data-wow-delay="100ms" data-wow-duration="2000ms">
           <ul>
             <li>
               <h3>商品购买</h3>
@@ -48,7 +48,10 @@
           </div>
         </div>
 
-        <div class="right-box col-xl-8 col-12">
+        <div
+          class="right-box col-xl-8 col-12 wow animate__rubberBand"
+          data-wow-delay="100ms"
+          data-wow-duration="2000ms">
           <div class="top-box">
             <h5>团购商品</h5>
             <p>
@@ -112,6 +115,16 @@
     },
     data() {
       return {};
+    },
+    mounted() {
+      /* eslint-disable */
+      new WOW({
+        boxClass: "wow",
+        live: true,
+        offset: 150,
+        animateClass: "animated",
+        mobile: true,
+      }).init();
     },
     created() {
       this.con();

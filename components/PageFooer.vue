@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="left">
+    <div class="left wow animate__slideInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
       <h5>安徽九个挑夫电子商务有限公司</h5>
       <p>
         <i class="bi bi-geo-alt-fill"></i>
@@ -20,7 +20,7 @@
         </a>
       </p>
     </div>
-    <div class="center">
+    <div class="center wow animate__slideInUp" data-wow-delay="100ms" data-wow-duration="1300ms">
       <div>
         <!-- <img :src="`${cdnUrl}/images/qrcode.jpg`" alt="" /> -->
         <!-- <p>- 扫码立即联系我们 -</p> -->
@@ -53,7 +53,7 @@
         </p>
       </div>
     </div>
-    <div class="right">
+    <div class="right wow animate__slideInUp" data-wow-delay="100ms" data-wow-duration="1400ms">
       <p>Copyright©安徽九个挑夫电子商务有限公司 All rights reserved.</p>
       <!-- <a href="#" @click="show = true"><i class="">微信</i></a> -->
       <!-- <a href="#" @click="show = true"><i class="">微博</i></a> -->
