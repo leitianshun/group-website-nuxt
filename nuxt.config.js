@@ -14,7 +14,9 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" },
     ],
-    // script: [{ src: 'https://cdn.bootcdn.net/ajax/libs/wow/1.1.2/wow.js' }]
+    // <script type="text/javascript" src="https://cdn.dowebok.com/131/js/wow.min.js"></script>
+    // <script type="text/javascript" src="http://www.jeendo.com/script/wow/wow.min2.js"></script>
+    script: [{ src: 'https://cdn.dowebok.com/131/js/wow.min.js' }, { src: 'http://www.jeendo.com/script/wow/wow.min2.js' }]
   },
   server: {
     port: 4000, // default: 3000

@@ -10,22 +10,22 @@
         </swiper-slide>
         <swiper-slide class="slide">
           <div class="imgs" @click="$router.push('/goodsinfo')">
-            <img src="../static/images/sxmiantiao.png" class="img" alt="" />
-          </div>
-        </swiper-slide>
-        <!-- <swiper-slide class="slide">
-          <div class="imgs">
-            <img src="../static/images/shdzr.jpg" class="img" alt="" />
+            <img src="../static/images/月饼节.gif" class="img" alt="" />
           </div>
         </swiper-slide>
         <swiper-slide class="slide">
+          <div class="imgs" @click="$router.push('/goodsinfo')">
+            <img src="../static/images/年货礼包6.png" class="img" alt="" />
+          </div>
+        </swiper-slide>
+        <!--  <swiper-slide class="slide">
           <div class="imgs">
             <img src="../static/images/qnzyq2.png" class="img" alt="" />
           </div>
         </swiper-slide> -->
         <swiper-slide class="slide">
           <div class="imgs" @click="$router.push('/goodsinfo')">
-            <img src="../static/images/sxdami.png" class="img" alt="" />
+            <img src="../static/images/粽子4.jpg" class="img" alt="" />
           </div>
         </swiper-slide>
       </swiper>

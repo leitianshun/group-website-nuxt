@@ -9,6 +9,7 @@
     <ScrollToTop></ScrollToTop>
   </div>
 </template>
+
 <script>
   import PageFooer from "../components/PageFooer.vue";
   import PageHeader from "../components/PageHeader.vue";
