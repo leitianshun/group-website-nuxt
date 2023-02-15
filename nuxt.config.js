@@ -83,7 +83,8 @@ export default {
   //   subFolders: false
   // },
   router: {
-    // base: process.env.NODE_ENV === 'development' ? '/' : "/group-website-nuxt"
+    base: process.env.NODE_ENV === 'development' ? '/' : "/group-website-nuxt"
+    // base: '/group-website-nuxt/'
   },
 
 }
